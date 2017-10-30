@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
+/**
+ * Commented to try a Functional reactive support for request handlers.
+ */
+//@RestController
 public class MovieController {
 
     private final MovieService movieService;
